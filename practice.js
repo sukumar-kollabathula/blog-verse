@@ -9,9 +9,8 @@ console.log(num)
 
  let x;
  console.log(x)
-
- let y=null;
-    console.log(y)
+x=null;
+console.log(x)
 
 console .log(typeof name)
 console.log(typeof num)
@@ -26,7 +25,12 @@ console.log(typeof arr)
     age:22
  
 }
-console.log(person)
-console.log(typeof person)
+console.log(person["name"])
+console.log(person["age"])
 console.log(person.name)
 console.log(person.age)
+console.log(typeof person)
+
+function sum(a,b){
+    return a+b;
+}   
